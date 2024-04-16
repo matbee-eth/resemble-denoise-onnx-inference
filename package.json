@@ -1,0 +1,28 @@
+{
+  "name": "resemble-denoise-onnx-inference",
+  "version": "1.0.0",
+  "description": "Resemble Denoiser in ONNX =======================",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@alexanderolsen/libsamplerate-js": "^2.1.1",
+    "@echogarden/kissfft-wasm": "^0.1.1",
+    "audio-buffer": "^5.0.0",
+    "audio-encoder": "^1.0.4",
+    "dsp.js": "^1.0.1",
+    "fft.js": "^4.0.4",
+    "kissfft-js": "^0.1.8",
+    "kissfft-wasm": "^2.0.1",
+    "node-wav": "^0.0.2",
+    "onnxruntime-node": "^1.17.0",
+    "onnxruntime-web": "^1.17.1",
+    "stft": "^0.0.0",
+    "wav": "^1.0.2",
+    "web-audio-api": "^0.2.2"
+  }
+}
